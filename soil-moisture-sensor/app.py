@@ -1,7 +1,7 @@
 from counterfit_connection import CounterFitConnection
 CounterFitConnection.init('127.0.0.1', 5000)
 
-import time
+zimport time
 from counterfit_shims_grove.adc import ADC
 from counterfit_shims_grove.grove_relay import GroveRelay
 import json
